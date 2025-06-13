@@ -9,19 +9,14 @@ function RegisterPage() {
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
-    //Step 1 - Task 4
     const [showerr, setShowerr] = useState('');
 
-    //Step 1 - Task 5
     const navigate = useNavigate();
     const { setIsLoggedIn } = useAppContext();
 
     const handleRegister = async () => {
         const response = await fetch(`${urlConfig.backendUrl}/api/auth/register`, {
-            //Step 1 - Task 6
             method: 'POST',
-            //Step 1 - Task 7
             headers: {
                 'content-type': 'application/json',
             },
