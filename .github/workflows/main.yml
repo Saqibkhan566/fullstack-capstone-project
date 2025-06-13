@@ -1,0 +1,16 @@
+During your testing of RegisterPage component, you attempt to register with an email already registered. The server responds with an error message indicating that the email is already in use. Which of the following is MOST appropriate?
+
+
+Redirect the user to the login page to log in with the existing credentials.
+
+
+
+Modify the server’s response to provide a more user-friendly error message.
+
+
+
+Display the error message from the server response without modifying the client-side code.
+
+
+
+Implement client-side validation to check if the email is already registered before making the API cal
